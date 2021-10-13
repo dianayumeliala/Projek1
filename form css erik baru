@@ -1,3 +1,17 @@
+.header {
+  background-color: #310725;
+  color: rgb(148, 110, 110);
+  height: 90px;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list li {
+  float: right;
+  padding: 33px 20px;
+}
 .section-title {
     border-bottom: 2px solid #dee7ec;
     font-size: 28px;
