@@ -1,0 +1,54 @@
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+
+  .contact-form {
+    padding-top: 100px;
+    background-color: rgb(166, 193, 250);
+  }
+  
+  
+  input, textarea {
+    border: 1px solid ;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    float: left;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 7px darkslategray;
+  }
+  
+  .message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+  }
+  
