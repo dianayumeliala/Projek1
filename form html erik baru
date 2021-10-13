@@ -6,6 +6,16 @@
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
+        <div class="header">
+          <div class="header-logo">Kantor</div>
+          <div class="header-list">
+            <ul>
+              <li>About</li>
+              <li>Spaces</li>
+              <li>contact</li>
+            </ul>
+          </div>
+        </div>
         <div class="contact-form">
             <h3 class="section-title">Leave a Reply</h3>
             <b
