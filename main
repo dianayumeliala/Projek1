@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1.0"
+<title>Project5A</title>
+</head>
+<style>
+.container{
+	max-width:1170px;
+	width:100%
+	padding: 0 15px;
+	margin:0 aut0;
+}	
+.top-main{
+	padding: 180px 0 100px 0;
+	background-color:white;
+	color:Black;
+	text-align:center;
+}
+.top-main h1{
+	font-size:45px;
+	letter-spacing:5px;
+	margin-bottom:10px
+}
+.top-main h2{
+	opacity:0.8;
+	font-size:24px;
+	letter-spacing:3px;
+	margin-bottom:5px;
+}
+.btn-wrapper{
+	text-align:center;
+	margin: 20px 0;
+}
+.btn{
+	padding: 12px 24px;
+	color:white;
+	display:inline-block;
+	border-radioes:4px;
+	text-align:center;
+}
+.btn:hover{
+	opacity:1;
+}
+.join{
+	background-color:black;
+}
+.profiles{
+	float:center;
+}
+.profile{
+	width:30%;
+}
+.profile-pict{
+	position:realtive
+}
+.profile p{
+	display:inline-block;
+	width:80%;
+	font-size:15px;
+	margin-top:15px;
+	color:gray;
+}
+</style>
+<body>
+<header>
+<div class="top-main">
+	<div class="container">
+		<h1>TEAM 5A</h1>
+		<h2>PROGATE X KAMPUS MERDEKA</h2>
+		<div class="btn-wrapper">
+			<a href="#" class="btn join">Join Us!</a>
+		</div>
+	</div>
+</div>
+<div class="mid-main">
+	<div class="container">
+		<div class="profiles">
+			<div class="profile">
+				<div class="profile-pict">
+					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\Me.jpg" width="200" height="300">
+					<p>Diana Ayu Virna Br Sembiring</p>
+				</div>
+				<p>Kesan&pesan bljr di progate<p>
+			</div>
+			<div class="profile">
+				<div class="profile-pict">
+					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\eriksuanda.jpg" width="200" height="300">
+					<p>Erik Suanda Handika</p>
+				</div>
+				<p>Kesan&pesan bljr di progate<p>
+			</div>
+			<div class="profile">
+				<div class="profile-pict">
+					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\dewi.jpeg" width="200" height="300">
+					<p>Dewi Isnawati</p>
+				</div>
+				<p>Kesan&pesan bljr di progate<p>
+			</div>
+			<div class="profile">
+				<div class="profile-pict">
+					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\diah.jpg" width="200" height="300">
+					<p>Diah Triwidiastuti</p>
+				</div>
+				<p>Kesan&pesan bljr di progate<p>
+			</div>
+			<div class="profile">
+				<div class="profile-pict">
+					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\erni.jpeg" width="200" height="300">
+					<p>Erni Sofyani</p>
+				</div>
+				<p>Kesan&pesan bljr di progate<p>
+			</div>
+		</div>
+	</div>
+</div>
+</header>
+</body>
+
+</html>
