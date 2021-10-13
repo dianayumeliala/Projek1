@@ -16,15 +16,14 @@
           <li>Contact</li>
         </ul>
       </div>
-      <div class="container">
+      <div class="container">SOCIAL</div>
       <p>SOCIAL<p>
-      <div class="social-links">
-        <span class="fa fa-facebook"></span>
-        <span class="fa fa-twitter"></span>
-        <span class="fa fa-instagram"></span>
-      </div>
-      </div>
-      </div>
+        <div class="social-links">
+          <span class="fa fa-facebook"></span>
+          <span class="fa fa-twitter"></span>
+          <span class="fa fa-instagram"></span>
+        </div>
     </div>
+        
   </body>
 </html>
