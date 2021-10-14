@@ -95,9 +95,6 @@ a {
 footer{
   margin:0;
   padding:0 ;
-  background-image: url(bg.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat; 
   background: #efefef; ;
   font-size: 16px;
   color: #777;
@@ -220,7 +217,8 @@ button .social{
 .google {
   background: #dd4b39;
 }
-.footer { 
+
+.footer {
   background-color: rgba(6, 33, 39, 0.9);
   color: rgb(233, 223, 223);
   height: 90px;
@@ -234,6 +232,5 @@ button .social{
 .footer-logo {
   font-size: 20px;
   padding: 10px 20px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
 }
-
