@@ -46,21 +46,31 @@
 .join{
 	background-color:black;
 }
-.profiles{
-	float:center;
-}
 .profile{
-	width:30%;
+	display:flex;
+	margin-bottom:15px;	
 }
-.profile-pict{
-	position:realtive
+.profile-pict img{
+	border-radius:50%;
+	width:200px;
+	height:200px;
 }
-.profile p{
-	display:inline-block;
-	width:80%;
-	font-size:15px;
-	margin-top:15px;
+.profile-data {
+	margin-left:10px;
+}
+.profile-data h5{
+	font-size:20px;
+	margin-bottom:0;
+}
+.profile-data h6{
 	color:gray;
+	margin-bottom:0;
+	font-size:15px;
+}
+.profile-data p{
+	text-align:justifiy;
+	font-family:verdana;
+	font-size:15px;
 }
 </style>
 <body>
@@ -79,38 +89,53 @@
 		<div class="profiles">
 			<div class="profile">
 				<div class="profile-pict">
-					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\Me.jpg" width="200" height="300">
-					<p>Diana Ayu Virna Br Sembiring</p>
+					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\Me.jpg">
 				</div>
-				<p>Kesan&pesan bljr di progate<p>
+				<div class="profile-data">
+					<h5>Diana Ayu Virna Br Sembiring</h5>
+					<h6>Universitas Sumatera Utara|Matematika</h6>
+					<p>Belajar bersama Progate sangat mudah untuk dimengerti, terlebih karena visualnya yang keren!<p>
+				</div>
 			</div>
 			<div class="profile">
 				<div class="profile-pict">
-					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\eriksuanda.jpg" width="200" height="300">
-					<p>Erik Suanda Handika</p>
+					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\eriksuanda.jpg">
 				</div>
-				<p>Kesan&pesan bljr di progate<p>
+				<div class="profile-data">
+					<h5>Erik Suanda Handika</h5>
+					<h6>Universitas Muhammadyah|Teknik Informatika</h6>
+					<p>Belajar bersama Progate sangat mudah untuk dimengerti, terlebih karena visualnya yang keren!<p>
+				</div>
 			</div>
 			<div class="profile">
 				<div class="profile-pict">
-					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\dewi.jpeg" width="200" height="300">
-					<p>Dewi Isnawati</p>
+					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\dewi.jpeg">
 				</div>
-				<p>Kesan&pesan bljr di progate<p>
+				<div class="profile-data">
+					<h5>Dewi Isnawati</h5>
+					<h6>Universitas Sumatera Utara|Matematika</h6>
+					<p>Belajar bersama Progate sangat mudah untuk dimengerti, terlebih karena visualnya yang keren!<p>
+				</div>
 			</div>
 			<div class="profile">
 				<div class="profile-pict">
-					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\diah.jpg" width="200" height="300">
-					<p>Diah Triwidiastuti</p>
+					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\diah.jpg">
 				</div>
-				<p>Kesan&pesan bljr di progate<p>
+				<div class="profile-data">
+					<h5>Diah Triwidiastuti</h5>
+					<h6>Universitas Sumatera Utara|Matematika</h6>
+					<p>Belajar bersama Progate sangat mudah untuk dimengerti, terlebih karena visualnya yang keren!<p>
+				</div>
 			</div>
 			<div class="profile">
 				<div class="profile-pict">
-					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\erni.jpeg" width="200" height="300">
-					<p>Erni Sofyani</p>
+					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\erni.jpeg">
 				</div>
-				<p>Kesan&pesan bljr di progate<p>
+				<div class="profile-data">
+					<h5>Erni Sofyani</h5>
+					<h6>Universitas Sumatera Utara|Matematika</h6>
+					<p>Belajar bersama Progate sangat mudah untuk dimengerti, terlebih karena visualnya yang keren!<p>
+				</div>				
 			</div>
 		</div>
 	</div>
