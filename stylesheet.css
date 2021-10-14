@@ -199,11 +199,12 @@ input[type="submit"]:focus {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0, 6);
 }
 button{
-  margin:10px auto;
+  margin:0 auto;
   flex-direction:column;
   padding: 12px 24px;
   display:inline-block;
   line-height:12px;
+  line-width:24px;
   width:48px;
 }	
 button .social {
