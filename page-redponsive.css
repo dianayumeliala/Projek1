@@ -1,3 +1,8 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  
+}
+
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .header-right {
@@ -125,3 +130,4 @@
     line-height: 20px;
   }
 }
+
