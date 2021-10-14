@@ -198,6 +198,11 @@ input[type="submit"]:focus {
   text-align: center;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0, 6);
 }
+button{
+  margin:0 auto;
+  flex-direction:column;
+  padding: 12px 24px;
+}	
 button .social {
   margin-bottom: 20px;
   width: 220px;
@@ -209,7 +214,6 @@ button .social {
   font-weight: 500;
   transition: 0.2s ease;
   cursor: pointer;
-  flex-direction:column;
 }
 .facebook {
   background-color: #3b5998;
