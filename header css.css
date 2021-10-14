@@ -1,0 +1,40 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #3b3a3b;
+  color: rgb(233, 223, 223);
+  height: 90px;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+.header-logo {
+  font-size: 36px;
+  padding: 20px 40px;
+}
