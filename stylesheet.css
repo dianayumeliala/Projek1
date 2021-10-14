@@ -95,7 +95,7 @@ a {
 footer {
   margin: 0;
   padding: 0;
-  background-image: url("bg.jpeg");
+  background-image: url(bg.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 16px;
