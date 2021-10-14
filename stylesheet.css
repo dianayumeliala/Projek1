@@ -202,6 +202,7 @@ button{
   margin:0 auto;
   flex-direction:column;
   padding: 12px 24px;
+  display:inline-block;
 }	
 button .social {
   margin-bottom: 20px;
