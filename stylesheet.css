@@ -262,7 +262,7 @@ button .social{
 }
 
 .footer {
-  background-color: rgba(6, 33, 39, 0.9);
+background-color: rgba(6, 33, 39, 0.9);
   color: rgb(233, 223, 223);
   height: 90px;
   max-width: 1170px;
@@ -272,6 +272,7 @@ button .social{
   position: fixed;
   z-index: 10;
 }
+  
 .footer-logo {
   font-size: 20px;
   padding: 10px 20px;
