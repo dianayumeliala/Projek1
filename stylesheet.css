@@ -209,6 +209,7 @@ button .social {
   font-weight: 500;
   transition: 0.2s ease;
   cursor: pointer;
+  flex-direction:column;
 }
 .facebook {
   background-color: #3b5998;
