@@ -165,18 +165,6 @@ input[type="submit"]:focus {
   background: #c93508;
   transition: 0.2s ease;
 }
-.or {
-  position: absolute;
-  top: 175px;
-  left: 275px;
-  width: 40px;
-  height: 40px;
-  background: #efefef;
-  border-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0, 6);
-  line-height: 40px;
-  text-align: center;
-}
 .right-box {
   position: absolute;
   top: 0;
