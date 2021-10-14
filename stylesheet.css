@@ -47,6 +47,17 @@ a {
   font-weight: normal;
   font-family: lucida;
   font-size: 24px;
+  width:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation:typing 5s steps(70, end);
+  animation:animasi-ketik 5s steps(70, end);
+}
+@keyframes animasi-ketik{
+	from{width:0;}
+}
+@-webkit-keyframes animasi{
+	from{width:0;}
 }
 .btn-wrapper {
   text-align: center;
