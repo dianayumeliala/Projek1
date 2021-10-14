@@ -76,11 +76,11 @@ a {
 .profiles h2 {
   text-align: center;
   color: #34495e;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .profile {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .profile-pict img {
   border-radius: 50%;
