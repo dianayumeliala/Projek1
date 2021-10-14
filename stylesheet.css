@@ -76,12 +76,9 @@ a {
   height: 200px;
 }
 .profile-pict img:hover { 
-	  o-transition: all 0.3s;  
-    moz-transition: all 0.3s;
-    webkit-transition: all 0.3s; 
-    moz-transform: scale(1.2);
-    o-transform: scale(1.2);  
-    webkit-transform: scale(1.2); 
+	o-transition: all 0.3s;  -moz-transition: all 0.3s;
+     	webkit-transition: all 0.3s; -moz-transform: scale(1.2);
+     	o-transform: scale(1.2);  -webkit-transform: scale(1.2); 
 }
 .profile-data {
   margin-left: 10px;
