@@ -1,0 +1,149 @@
+.header {
+  background-color: #3b3a3b;
+  color: rgb(233, 223, 223);
+  height: 90px;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+.header-logo {
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.container{
+	width:1170px;
+	width:100%
+	padding: 0 15px;
+	margin:0 aut0;
+}	
+.top-main{
+	padding-top: 180px;
+	padding-bottom:100px;
+	background-image:url(https://images.pond5.com/computer-coding-background-footage-090890180_prevstill.jpeg);
+	background-size:cover;
+	color:White;
+	text-align:center;
+	height:400px;
+}
+.top-main h1{
+	font-size:50px;
+	letter-spacing:5px;
+}
+.top-main h2{
+	font-weight:normal;
+	font-family:lucida;
+	font-size:24px;
+}
+.btn-wrapper{
+	text-align:center;
+	margin: 20px 0;
+}
+.btn{
+	padding: 12px 24px;
+	color:white;
+	display:inline-block;
+	border-radioes:4px;
+	text-align:center;
+}
+.profiles{
+	padding:30px 10px;
+}
+.profiles h2{
+	text-align:center;
+	color:#34495E;
+	margin-bottom:30px;
+}
+.profile{
+	display:flex;
+	margin-bottom:15px;	
+}
+.profile-pict img{
+	border-radius:50%;
+	width:200px;
+	height:200px;
+}
+.profile-data {
+	margin-left:10px;
+}
+.profile-data h5{
+	font-size:20px;
+	margin-bottom:0;
+}
+.profile-data h6{
+	color:gray;
+	margin-bottom:0;
+	font-size:15px;
+}
+.profile-data p{
+	text-align:justifiy;
+	font-family:verdana;
+	font-size:15px;
+}
+.header {
+  background-color: #310725;
+  color: rgb(148, 110, 110);
+  height: 90px;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list li {
+  float: right;
+  padding: 33px 20px;
+}
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+
+  .contact-form {
+    padding-top: 100px;
+    background-color: rgb(166, 193, 250);
+  }
+  
+  
+  input, textarea {
+    border: 1px solid ;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    float: left;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0 7px darkslategray;
+  }
+  
+  .message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+  }
