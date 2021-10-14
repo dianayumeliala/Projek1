@@ -203,6 +203,7 @@ button{
   flex-direction:column;
   padding: 12px 24px;
   display:inline-block;
+  line-height:12px;
 }	
 button .social {
   margin-bottom: 20px;
