@@ -1,0 +1,30 @@
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulir</title>
+        <link rel="stylesheet" type="text/css" href="style.css" >
+    </head>
+    <body>
+        <div id="login-box">
+        <div class="left-box">
+           <h1>Daftar</h1>
+           <input type="text" name="username" placeholder="Nama Lengkap">
+           <input type="text" name="email" placeholder="Email">
+           <input type="password" name="password" placeholder="password">
+           <input type="password" name="password" placeholder="re password">
+           <input type="submit" name="signup-button" value="Daftar  ">
+            </div>
+
+            <div class="right-box">
+                <span class="signinwith">Daftar menggunakan<br/>Media Sosial </span>
+                <button class="social facebook">Masuk menggunakan facebook </button >
+                <button class="social Twiter">Masuk menggunakan Twiter </button >
+               <button class="social google">Masuk menggunakan google+ </button >  
+            </div>
+           
+            
+        </div>
+        <div class="or"> Atau </div>
+
+    </body>
+</html>
