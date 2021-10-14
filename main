@@ -3,31 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, intial-scale=1.0"
-<title>Project5A</title>
+<title></title>
 </head>
 <style>
+
 .container{
-	max-width:1170px;
+	width:1170px;
 	width:100%
 	padding: 0 15px;
 	margin:0 aut0;
 }	
 .top-main{
-	padding: 180px 0 100px 0;
-	background-color:white;
-	color:Black;
+	padding-top: 180px;
+	padding-bottom:100px;
+	background-image:url(https://images.pond5.com/computer-coding-background-footage-090890180_prevstill.jpeg);
+	background-size:cover;
+	color:White;
 	text-align:center;
+	height:400px;
 }
 .top-main h1{
-	font-size:45px;
+	font-size:50px;
 	letter-spacing:5px;
-	margin-bottom:10px
 }
 .top-main h2{
-	opacity:0.8;
+	font-weight:normal;
+	font-family:lucida;
 	font-size:24px;
-	letter-spacing:3px;
-	margin-bottom:5px;
 }
 .btn-wrapper{
 	text-align:center;
@@ -40,11 +42,13 @@
 	border-radioes:4px;
 	text-align:center;
 }
-.btn:hover{
-	opacity:1;
+.profiles{
+	padding:30px 10px;
 }
-.join{
-	background-color:black;
+.profiles h2{
+	text-align:center;
+	color:#34495E;
+	margin-bottom:30px;
 }
 .profile{
 	display:flex;
@@ -77,16 +81,17 @@
 <header>
 <div class="top-main">
 	<div class="container">
-		<h1>TEAM 5A</h1>
-		<h2>PROGATE X KAMPUS MERDEKA</h2>
-		<div class="btn-wrapper">
-			<a href="#" class="btn join">Join Us!</a>
-		</div>
+		<h1>PROGATE</h1>
+		<h1>X</h1>
+		<h1> KAMPUS MERDEKA</h1>
+		<h2>Kami adalah peserta studi Independen Digital Leadership through Coding.</h2>
+		<h2>Progate membuka kesempatan seluas-luasnya bagi para mahasiswa dari jurusan manapun untuk belajar coding.</h2>
 	</div>
 </div>
 <div class="mid-main">
 	<div class="container">
 		<div class="profiles">
+			<h2>Who Are We?</h2>
 			<div class="profile">
 				<div class="profile-pict">
 					<img src="C:\Users\ASUS\Documents\ayu\Studi Independen\Progate Me\profil 5a(web)\Me.jpg">
