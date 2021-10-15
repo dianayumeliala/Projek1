@@ -80,16 +80,19 @@ a {
 .twitter {
   background-color: #55acee;
 }
+.materi{
+  margin-top:40px;
+}
+.materi h2 {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 60px;
+}
 .profiles {
   padding: 30px 10px;
   margin-bottom: 30px;
 }
 .profiles h2 {
-  text-align: center;
-  color: #34495e;
-  margin-bottom: 60px;
-}
-.materi h2 {
   text-align: center;
   color: #34495e;
   margin-bottom: 60px;
