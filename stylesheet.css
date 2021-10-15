@@ -209,36 +209,7 @@ input[type="submit"]:focus {
   text-align: center;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0, 6);
 }
-button{
-  margin:0 auto;
-  flex-direction:column;
-  padding: 12px 24px;
-  display:inline-block;
-  line-height:12px;
-  line-width:24px;
-  width:48px;
-}	
-button .social {
-  margin-bottom: 20px;
-  width: 220px;
-  height: 36px;
-  border: none;
-  border-radius: 2px;
-  color: #fff;
-  font-family: sans-serif;
-  font-weight: 500;
-  transition: 0.2s ease;
-  cursor: pointer;
-}
-.facebook {
-  background-color: #3b5998;
-}
-.twiter {
-  background-color: #55acee;
-}
-.google {
-  background-color: #239b76;
-}
+
 .footer {
   background-color: rgba(6, 33, 39, 0.9);
   color: rgb(233, 223, 223);
