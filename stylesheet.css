@@ -84,7 +84,12 @@ a {
   padding: 30px 10px;
   margin-bottom: 30px;
 }
-.profiles .materi h2 {
+.profiles h2 {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 60px;
+}
+.materi h2 {
   text-align: center;
   color: #34495e;
   margin-bottom: 60px;
@@ -232,18 +237,6 @@ input[type="submit"]:focus{
   transition: 0.2s ease;
   
   
-}
-.or{
-  position:absolute;
-  top: 250px;
-  left: 750px;
-  width: 40px;
-  height: 40px;
-  background: #efefef;
-  border-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0,0,0,0,6);
-  line-height: 40px;
-  text-align: center;
 }
 .right-box{
   position: absolute;
