@@ -80,13 +80,11 @@ a {
 .twitter {
   background-color: #55acee;
 }
-.materi{
-  margin-top:40px;
-}
 .materi h2 {
   text-align: center;
   color: #34495e;
   margin-bottom: 60px;
+  margin-top:40px;
 }
 .profiles {
   padding: 30px 10px;
