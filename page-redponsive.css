@@ -13,34 +13,31 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .header-right {
-    display: none;
+  .header-logo{
+    font-size:20px;
+    padding-top:32;
   }
-  
-  span.menu-icon {
-    display: block;
-  }
-  
-  .btn {
-    width: 100%;
-  }
-
-  .facebook {
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper {
-    text-align: left;
-  }
-  
   .top-main h1 {
     font-size: 24px;
     line-height: 36px;
   }
   
-  .top-main h2 {
+  .top-main p {
     font-size: 14px;
     line-height: 20px;
+    background-color: rgba(6, 33, 39, 0.9);
+  }
+  
+  #login-box{
+    width:100%;
+    height:800px;
+  }
+  .left-box{
+    left:0;
+    position:relative;
+  }
+  .right-box{
+    left:0;
+    position:relative;
   }
 }
-
