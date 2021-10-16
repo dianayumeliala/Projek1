@@ -4,7 +4,7 @@ header {
   height: 90px;
   width:100%;
   top:0;
-  position: fixed;
+  position: absolute;
   z-index: 10;
 }
 .header-logo {
