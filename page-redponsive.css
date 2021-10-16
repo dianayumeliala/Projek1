@@ -1,8 +1,11 @@
 
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .top-wrapper h1 {
+  .top-main h1 {
     font-size: 32px;
+  }
+  .top-main h2{
+    font-size:20px;
   }
 }
 
