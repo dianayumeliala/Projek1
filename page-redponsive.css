@@ -1,11 +1,13 @@
-
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .top-main h1 {
     font-size: 32px;
   }
   .top-main h2{
-    font-size:20px;
+    font-size:18px;
+  }
+  .profile-data{
+    display:inline-block;
   }
 }
 
@@ -41,3 +43,4 @@
     line-height: 20px;
   }
 }
+
