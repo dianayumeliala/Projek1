@@ -1,32 +1,14 @@
-body,
-h2,
-h3,
-div {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Avenir Next";
-}
-
-a {
-  text-decoration: none;
-}
-.header {
+header {
   background-color: rgba(6, 33, 39, 0.9);
   color: rgb(233, 223, 223);
   height: 90px;
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 100px;
-  margin: 0 auto;
+  width:100%;
+  top:0;
   position: fixed;
   z-index: 10;
 }
 .header-logo {
   font-size: 36px;
-  padding: 20px 40px;
   letter-spacing: 5px;
 }
 
@@ -37,27 +19,17 @@ a {
   background-size: cover;
   color: White;
   text-align: center;
-  height: 400px;
+  height: 300px;
 }
 .top-main h1 {
-  font-size: 50px;
+  font-size: 60px;
   letter-spacing: 5px;
+  font-weight:bold;
 }
-.top-main h2 {
-  font-weight: normal;
+.top-main p {
+  margin-top:20px;
   font-family: lucida;
-  font-size: 24px;
-  width:100%;
-  white-space:nowrap;
-  overflow:hidden;
-  -webkit-animation:typing 5s steps(70, end);
-  animation:animasi-ketik 5s steps(70, end);
-}
-@keyframes animasi-ketik{
-	from{width:0;}
-}
-@-webkit-keyframes animasi{
-	from{width:0;}
+  font-size:18px;
 }
 .btn-wrapper {
   text-align: center;
@@ -300,3 +272,224 @@ button .social{
   padding: 10px 20px;
   letter-spacing: 3px;
 }
+.header {
+  background-color: rgba(6, 33, 39, 0.9);
+  color: rgb(233, 223, 223);
+  height: 90px;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 10;
+}
+.header-logo {
+  font-size: 36px;
+  padding: 20px 40px;
+  letter-spacing: 5px;
+}
+
+.top-main {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  background-image: url(https://images.pond5.com/computer-coding-background-footage-090890180_prevstill.jpeg);
+  background-size: cover;
+  color: White;
+  text-align: center;
+  height: 300px;
+}
+.top-main h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+.top-main h2 {
+  padding-top:30px;
+  font-weight: normal;
+  font-family: lucida;
+  font-size: 24px;
+  width:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  -webkit-animation:typing 5s steps(70, end);
+  animation:animasi-ketik 5s steps(70, end);
+}
+@keyframes animasi-ketik{
+	from{width:0;}
+}
+@-webkit-keyframes animasi{
+	from{width:0;}
+}
+.btn-wrapper {
+  text-align: center;
+}
+.btn {
+  height:25px;
+  line-height:25px;
+  color: white;
+  display:inline-block;
+  width:100%;
+  border-radius:4px;
+  
+}
+.signup {
+  background-color: #810027;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.twitter {
+  background-color: #55acee;
+}
+.materi h2 {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 60px;
+  margin-top:40px;
+}
+.profiles {
+  padding: 30px 10px;
+  margin-bottom: 30px;
+}
+.profiles h2 {
+  text-align: center;
+  color: #34495e;
+  margin-bottom: 60px;
+}
+.profile {
+  display: flex;
+  margin-bottom: 40px;
+}
+.profile-pict img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.profile:hover { 
+	o-transition: all 0.3s;  -moz-transition: all 0.3s;
+     	webkit-transition: all 0.3s; -moz-transform: scale(1.2);
+     	o-transform: scale(1.2);  -webkit-transform: scale(1.2); 
+}
+.profile-data {
+  margin-left: 20px;
+}
+.profile-data h5 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.profile-data h6 {
+  color: gray;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.profile-data p {
+  text-align: justifiy;
+  font-family: verdana;
+  font-size: 15px;
+}
+footer {
+  margin: 0;
+  padding: 0;
+  background-image: url(bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  color: #777;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  height: 400px;
+  width: 600px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0, 6);
+}
+.left-box {
+  position: absolute;
+  top: 0;
+  left:60;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+h1 {
+  margin: 0 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+input[type="submit"] {
+  margin-bottom: 28px;
+  width: 120px;
+  height: 32px;
+  background: #f44336;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0, 2s ease;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #c93508;
+  transition: 0.2s ease;
+}
+.right-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background-image: url("img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.right-box .signinwith {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0, 6);
+}
+
+.footer {
+  background-color: rgba(6, 33, 39, 0.9);
+  color: rgb(233, 223, 223);
+  height: 90px;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 100px;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 10;
+}
+.footer-logo {
+  font-size: 20px;
+  padding: 10px 20px;
+  letter-spacing: 3px;
+}
+
